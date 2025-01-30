@@ -13,17 +13,13 @@ export default function Home() {
       <div className="text-center">
         <Card className="p-32 rounded-xl border-stone-400 border-2 shadow-lg bg-stone-300">
         <div className="flex items-center justify-center gap-4 mb-32">
-          <div className="w-12 h-12 relative">
+          <div className="w-full h-96 relative">
             <Image
-              src="/logo.svg"
+              src="/silicium-logo.svg"
               alt="Silicium Logo"
-              fill
-              className="object-contain"
+              fill  
             />
           </div>
-          <h1 className={`${orbitron.className} text-4xl font-bold bg-gradient-to-r from-blue-500 to-cyan-300 bg-clip-text text-transparent`}>
-            silicium
-          </h1>
         </div>
         
         <div className="relative w-16 h-16 mx-auto mb-8">
