@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-stone-200 to-stone-400 text-white flex flex-col items-center justify-center p-4">
       <div className="text-center">
-        <Card className="p-18 rounded-xl border-stone-400 border-2 shadow-lg bg-stone-300">
+        <Card className="p-24 rounded-xl border-stone-400 border-2 shadow-lg bg-stone-300">
         <div className="flex items-center justify-center gap-4 mb-32">
           <div className="w-full h-36 relative">
             <Image
