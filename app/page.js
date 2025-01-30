@@ -1,3 +1,5 @@
+'use client'
+
 import { Orbitron } from 'next/font/google';
 import Image from 'next/image';
 import {Card} from '@/components/ui/card';
@@ -15,7 +17,7 @@ export default function Home() {
         <div className="flex items-center justify-center gap-4 mb-32">
           <div className="w-full h-96 relative">
             <Image
-              src="/silicium-logo.svg"
+              src="/in-progress-page/silicium-logo.svg"
               alt="Silicium Logo"
               fill  
             />
