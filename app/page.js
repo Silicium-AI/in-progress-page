@@ -17,7 +17,7 @@ export default function Home() {
         <div className="flex items-center justify-center gap-4 mb-32">
           <div className="w-full h-96 relative">
             <Image
-              src="/in-progress-page/silicium-logo.svg"
+              src="/silicium-logo.svg"
               alt="Silicium Logo"
               fill  
             />
